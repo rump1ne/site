@@ -1,0 +1,333 @@
+
+.Golova {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    background-color: #3366ff;
+    padding: 1% 10%;
+}
+
+.Golova div {
+	display: flex;
+	align-items: center;
+}
+
+.Levo{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;;
+}
+
+.avat {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.kolok {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.nota {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+
+
+.all {
+	display: flex;
+	flex-direction: row;
+	padding: 1% 10%;
+	background-color: #003399;
+	align-items: flex-start;
+}
+
+
+
+.Menushka {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+
+.Menushka div{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 5%;
+}
+
+.menu {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.meni {
+	width: 110px;
+	height: 30px;
+}
+
+
+.center {
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    padding-top: 2%;
+    background-color: #3366ff;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 80px; 
+    border-radius: 10px;
+}
+.niz {
+	padding-top: 2%;
+    background-color: #3a72ec;
+    height: 80px; 
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.avatarka {
+	display: flex;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.avatar {
+	border-radius: 50%;
+    margin-left: 20px;
+	width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.infa {
+	display: flex;
+	margin-left: 10px;
+    margin-top: 65px;
+    flex-direction: column;
+}
+
+.text {
+	font-size: 20px;
+    color: black;
+    font-weight: 450;
+}
+
+.mestopol {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.mest {
+	width: 20px;
+    height: 20px;
+}
+
+.Novo {
+	font-size: 13px;
+	color: black;
+}
+
+
+
+
+
+.block_2 {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+	display: flex;
+    flex-direction: column;
+}
+.dre {
+	display: flex;
+	padding: 11px 14px;
+	border-radius: 15px;
+	margin-top: 11px;
+    background-color: #3366ff;
+    flex-direction: column;
+	padding: 2%;
+}
+.itd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.itd div{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+.itdshka{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.knopki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gg{
+    display: flex;
+    flex-direction: row;
+	background-color: #3366ff;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    justify-content: space-between;
+}
+.ggg{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.ggg_2{
+    display: flex;
+    align-items: center;
+}
+.fotka_2{
+    width: 25px;
+	border-radius: 50%;
+    margin-right: 4%;
+    height: 25px;
+}
+.zap{
+    display: flex;
+	border-radius: 15px;
+    margin-top: 11px;
+    padding: 3% 4%;
+    flex-direction: column;
+    background-color: #3366ff;
+}
+.zap_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ppp {
+	display: flex;
+    flex-direction: row;
+    background-color: #3366ff;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.ppp_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ppp_3{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    margin-bottom: 10px;
+}
+.fio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dd{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+    background-color: #3366ff;
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 2% 5%;
+}
+.ff_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.of{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.of_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+.of_3{
+    display: flex;
+    flex-direction: row;
+    background-color: #3366ff;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.of_4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.hh{
+	width: 1100px;
+	height: 30px;
+}
+.Novo_2 {
+	font-size: 16px;
+	color: black;
+	margin-left: 5px;
+}
+.photo {
+	width: 120px;
+	height: 160px;
+}
+.cc {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.stena {
+	width: 1300px;
+	height: 300px;
+	border-radius: 4%;
+}
